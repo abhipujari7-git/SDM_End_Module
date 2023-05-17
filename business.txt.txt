@@ -1,0 +1,17 @@
+A Ticket Booking System involves various entities that interact with each other. Here are the key entities typically involved:
+
+User: Represents individuals who use the Ticket Booking System. Users can have roles such as guest, registered user, or admin. They have attributes like User ID, Name, Email, and Password.
+
+Event: Represents a specific event for which tickets can be booked. Events have attributes such as Event ID, Title, Description, Date, Time, Venue, and Ticket Availability.
+
+Ticket: Represents a ticket for a specific event. Tickets have attributes like Ticket ID, Event ID, Seat Number, Price, and Status (booked, canceled, etc.).
+
+Booking: Represents a user's booking of one or more tickets for an event. Bookings have attributes like Booking ID, User ID, Event ID, Booking Date, Total Price, and Status (confirmed, pending, canceled).
+
+Payment: Represents a payment made by a user for a booking. Payments have attributes like Payment ID, Booking ID, Payment Method, Transaction ID, and Amount.
+
+Venue: Represents the location or venue where events take place. Venues have attributes like Venue ID, Name, Address, Capacity, and Facilities.
+
+
+
+
